@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/css/test.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Proyek Akhir</title>
+</head>
+<body>
+  <header>
+    <div class="fContainer">
+      <nav class="wrapper">
+        <div class="brand">
+          <div class="firstname">ManggoCare</div>
+          <div class="lastname">AI</div>
+        </div>
+        <ul class="navigation">
+          <li><a href="#beranda" class="active">Beranda</a></li>
+          <li><a href="#Analisis Mangga" class="active">Analisis Mangga</a></li>
+          <li><a href="../templates/jenis.html #jenis penyakit" class="active">Pohon Mangga</a></li>
+          <li><a href="#profile" class="active">Tentang Kami</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="backgambar">
+    <div class="gambar">
+      <h4 class="manggo">"ManggoCare AI"</h4>
+      <br>
+      <p class="mango">"ManggoCare AI Adallah mitra terbaik petani mangga</p>
+      <br>
+      <p class="mango">kami membantu anda mencegah penyakit pohon mangga dengan cepat.</p>
+      <p class="mango">kami ada disini untuk hasil panen yang lebih baik dan kebun mangga yang lebih sehat"</p>
+    </div>
+  </div>
+  </header>
+  <main>
+    <div id="content">
+        <article id="beranda" class="card">
+            <h2>Apa Itu ManggoCareAI?</h2>
+            <p class="kata" style="line-height: 25px;">ManggoCare AI adalah inovatif yang sudah dirancang untuk meningkatkan kesehatan dan produktivitas mangga
+                dengan memanfaatkan kecerdasan buatan. ManggoCare AI merupakan sistem berbasis deep learning yang
+                memanfaatkan data visual dari gambar daun mangga untuk mengidentifikasi secara akurat penyakit atau
+                gejala penyakit pada pohon mangga</p>
+                <br>
+            <img src="../static/img/fixx.jpg">
+            <br>
+            <br>
+            <h2>Mengapa Harus ManggoCareAI?</h2>
+            <p class="kata" style="line-height: 25px;">ManggoCareAI adalah Solusi inovatif yang telah dirancang untuk meningkatkan kesehatan dan produktivitas
+                kebun mangga dengan memanfaatkan kecerdasan buatan ManggoCare AI merupakan sistem berbasis deep learning
+                yang memanfaatkan data visual dari gambar daun mangga untuk mengidentifikasi secara akurat penyakit atau
+                gejala penyakit pada pohon mangga
+            </p>
+        </article>
+        <article id="Analisis Mangga" class="card2">
+            <h2 class="dodol">Scan Penyakit Pohon Mangga Anda</h2>
+            <script>
+              function previewImage(input) {
+                  var preview = document.getElementById('preview');
+                  var file = input.files[0];
+          
+                  if (file) {
+                      var reader = new FileReader();
+          
+                      reader.onload = function (e) {
+                          preview.src = e.target.result;
+                      }
+          
+                      reader.readAsDataURL(file);
+                  }
+              }
+          </script>   
+          <div class="dada">
+             <div id="image-preview-container" style="width: 400px; height: 300px; display: inline-block; overflow: hidden;">
+              <img id="preview" src="#" alt="Preview Gambar" style="width: 400px; height: 300px; justify-content: center; align-items: center;">
+            </div>
+            <br>
+            <form action="/" method="POST" enctype="multipart/form-data">
+                <input class="dede" type="file" id="file" name="file" accept=".jpg, .jpeg, .png" onchange="previewImage(this)">
+                <label class="deda" for="file">Pilih file</label>
+                <input type="submit" value="Upload File">
+                <br>
+                <button class="dudu" type="submit" for="file">Predict</button>
+             </form>
+            <p>{{message}}</p>
+          </div>
+
+        </article>
+
+        <div id="pohon mangga">
+            <article id="pohon mangga" class="card3">
+              <h3 style="text-align: center; margin-bottom: 15px;">JENIS-JENIS PENYAKIT MANGGA</h3>
+              <div class="penyakit">
+                <img src="../static/img/fixx.jpg" alt="">
+                <h4 style="padding-top: 15px;">NAMA PENYAKIT</h4>
+                <P>KETERANGAN PENYAKIT</P>
+              </div>
+              <div class="penyakit">
+                <img src="../static/img/fixx.jpg" alt="">
+                <h4 style="padding-top: 15px;">NAMA PENYAKIT</h4>
+                <P>KETERANGAN PENYAKIT</P>
+              </div>
+              <div class="penyakit">
+                <img src="../static/img/fixx.jpg" alt="">
+                <h4 style="padding-top: 15px;">NAMA PENYAKIT</h4>
+                <P>KETERANGAN PENYAKIT</P>
+              </div>
+              <div class="penyakit">
+                <img src="../static/img/fixx.jpg" alt="">
+                <h4 style="padding-top: 15px;">NAMA PENYAKIT</h4>
+                <P>KETERANGAN PENYAKIT</P>
+              </div>
+              <div class="penyakit">
+                <img src="../static/img/fixx.jpg" alt="">
+                <h4 style="padding-top: 15px;">NAMA PENYAKIT</h4>
+                <P>KETERANGAN PENYAKIT</P>
+              </div>
+              <div class="penyakit">
+                <img src="../static/img/fixx.jpg" alt="">
+                <h4 style="padding-top: 15px;">NAMA PENYAKIT</h4>
+                <P>KETERANGAN PENYAKIT</P>
+              </div>
+              <div class="penyakit">
+                <img src="../static/img/fixx.jpg" alt="">
+                <h4 style="padding-top: 15px;">NAMA PENYAKIT</h4>
+                <P>KETERANGAN PENYAKIT</P>
+              </div>
+              <div class="penyakit">
+                <img src="../static/img/fixx.jpg" alt="">
+                <h4 style="padding-top: 15px;">NAMA PENYAKIT</h4>
+                <P>KETERANGAN PENYAKIT</P>
+              </div>
+            </article>
+        </div>
+    </div>
+    <aside>
+        <article id="profile" class="profile">
+            <header>
+                <h2 class="kami">Tentang Kelompok</h2>
+                <br>
+                    <div class="cardnama1" >
+                        <img src="../static/img/fixx.jpg" alt="">
+                        <h4 style="padding-top: 20px;">Ely Sudarsono</h4>
+                        <p>Orbit Future Academy</p>
+                        <p>Coach</p>
+                    </div>
+                    <div class="cardnama1">
+                      <img src="../static/img/fixx.jpg" alt="">
+                      <h4 style="padding-top: 20px;">Luthfi </h4>
+                      <p>Universitas Pendidikan</p>
+                      <p">LEADER</p>
+                    </div>
+                    <div class="cardnama1">
+                      <img src="../static/img/fixx.jpg" alt="">
+                      <h4 style="padding-top: 20px;">Ilham FirmansyahDika</h4>
+                      <p>Universitas Muhammadiyah Jakarta</p>
+                      <p>Deployment</p>
+                    </div>
+                    <br>
+                    <div class="cardnama2">
+                      <img src="../static/img/fixx.jpg" alt="">
+                      <h4 style="padding-top: 20px;">Akmal Ali</h4>
+                      <p>Universitas Garut</p>
+                      <p>UI / UX</p>
+                    </div>
+                    <div class="cardnama2">
+                      <img src="../static/img/fixx.jpg" alt="">
+                      <h4 style="padding-top: 20px;">Siti Sarah</h4>
+                      <p>Universitas Garut</p>
+                      <p>Analyst System</p>
+                    </div>
+                    <div class="cardnama2">
+                      <img src="../static/img/fixx.jpg" alt="">
+                      <h4 style="padding-top: 20px;">Yusuf Habibie</h4>
+                      <p>Universitas Muhammadiyah Jakarta</p>
+                      <p>Data Engineer</p>
+                    </div>
+                </div>
+                <br>
+            </header>
+        </article>
+        <div id="pohon mangga">
+          <article id="pohon mangga" class="card">
+            <h1 class="judulartikel">Artikel Pohon Mangga</h1>
+            <div class="links" >
+              <h4 class="linka"><a href=""></a>link</h4>
+            </div>
+            <div class="links" >
+              <h4 class="linka"><a href=""></a>link</h4>
+            </div>
+            <div class="links" >
+              <h4 class="linka"><a href=""></a>link</h4>
+            </div>
+            <div class="links" >
+              <h4 class="linka"><a href=""></a>link</h4>
+            </div>
+            <div class="links" >
+              <h4 class="linka"><a href=""></a>link</h4>
+            </div>
+            <div class="links" >
+              <h4 class="linka"><a href=""></a>link</h4>
+            </div>
+          </article>
+      </div>
+    </aside>
+  </main>
+  <footer>
+    <div class="footer-col">
+      <div class="footer1">
+        <H2 style="color: white;">TENTANG MANGGOCARE AI</H2>
+        <br>
+        <h4 style="line-height: 20px;"><a href="#beranda">POHON MANGGA</a></h4>
+        <h4 style="line-height: 20px;"><a href="#">TENTANG KELOMPOK</a></h4>
+        <h4 style="line-height: 20px;"><a href="#profile">TENTANG KAMI</a></h4>
+      </div>
+      <div class="footer1">
+        <h2 style="text-align: left; color: white;">PRODUK & LAYANAN</h2>
+        <br>
+        <h4 style="line-height: 20px; text-align: left;"><a href="#">PRODUK MANGGO CARE AI</a></h4>
+        <h4 style="line-height: 20px; text-align: left;"><a href="#Analisis Mangga">ANALISIS MANGGA</a></h4>
+        <h4 style="line-height: 20px; text-align: left;"><a href="#">TIPS PENCEGAHAN & PENCEGAHAN</a></h4>
+      </div>
+      <div class="footer1">
+        <h2 style="color: white;">Hubungi kami</h2>
+        <br>
+          <p style="color: white;">Manggocareai@gmail.com</p>
+        <div class="footercontainer">
+          <div class="socialicon">
+            <a href="https://instagram.com/yusuf_habibie1105?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="https://wa.me/6281998485341"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-col1">
+      <div class="footer2">
+        <h3 style="color: white; padding-top: 25px;">- ORBIT FUTURE ACADEMY - MANGGO CARE AI -</h3>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

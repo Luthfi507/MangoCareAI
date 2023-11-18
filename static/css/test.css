@@ -1,0 +1,570 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboti", sans-serif;
+}
+
+.fContainer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+.backgambar {
+  background-color: #e8ebea;
+}
+
+.gambar {
+    display: inline-block;
+    box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 2);
+    background-color: #02fda9;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+
+.manggo {
+  font-size: 50px;
+  margin-top: 130px;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.mango {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  height: 5px;
+  background-color: #02fda9;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.firstname {
+  color: orange;
+  font-weight: 700;
+}
+
+.lastname {
+  color: black;
+  padding-left: 4px;
+  font-weight: 400;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 65px;
+}
+
+.navigation > li {
+  list-style-type: none;
+  padding: 10px;
+  height: 9px;
+  margin: 10px;
+}
+
+.navigation > li > a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  height: 190px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.navigation > li >a:hover {
+  color: white;
+  background-color: #000000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.active {
+  color: white;
+  padding: 15px;
+  transition: all .3s ease-out;
+  height: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .firstname {
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .gambar {
+    width: 100%;
+  }
+  .fContainer {
+    width: 100%;
+  }
+  .body {
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+  }
+  .links {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 30px;
+  overflow: auto;
+  background-color: #e8ebea;
+}
+
+input {
+  display: none;
+}
+
+label {
+  background-color: white;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 2);
+  color: black;
+  height: 25px;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 300px;
+  margin-left: 464px;
+  border-radius: 10px;
+}
+
+.uploadgambar {
+  font-size: 15px;
+}
+
+label:hover {
+  color: red;
+}
+
+.uploadfile {
+  background-color: #02fda9;
+  border: 1px;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+  max-width: 500px;
+  margin: 0 16px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.deskripsi {
+  background-color: aqua;
+  border-radius: 50px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.658);
+  width: 200px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  margin-left: 150px;
+  margin-top: -20px;
+  font-size: 15px;
+}
+.gambar2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 85px;
+}
+.caraupload {
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.card2 {
+  background-color: #e8ebea;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#content {
+  flex: 5;
+}
+
+.card {
+  
+  background-color: #e8ebea;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.card img {
+  border-radius: 9px;
+  width: 100%;
+  height: 400px;
+}
+
+.card3 {
+  background-color: #e8ebea;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.penyakit {
+  background-color: #02fda9;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 2);
+  width: 250px;
+  height: 350px;
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.penyakit img {
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.dodol {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.kata {
+  text-align: left;
+}
+
+.kami {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.pilihan {
+  background-color: #e8ebea;
+  border: 1px;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 0 16px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.pilihan-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.pilihan-content {
+  font-size: 14px;
+}
+
+.klik {
+  display: inline;
+  background-color: #435334;
+  color: pink;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: backgroud-color 0.3s ease;
+}
+
+.klik:hover {
+  background-color: #9EB384;
+}
+
+aside {
+  flex: 1;
+}
+
+.profile {
+  background-color: #e8ebea;
+  width: 100%;
+  margin: 0px;
+  display: inline-block;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cardnama1 {
+  background-color: #02fda9;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 2);
+  padding: 15px;
+  padding-top: 40px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  justify-content: center;
+  vertical-align: top;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.cardnama1 > img {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center; 
+  box-shadow: 0px 5px 15px 2px rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+.cardnama2 {
+  background-color: #02fda9;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 2);
+  padding: 15px;
+  padding-top: 40px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  justify-content: center;
+  vertical-align: top;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.cardnama2 > img {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 15px 2px rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+
+.links {
+  background-color: #e8ebea;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 0px 0px 1px rgb(0, 0, 0);
+  width: 1150px;
+  height: 10px;
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: top;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.linka {
+  text-align: left;
+}
+
+.judulartikel {
+  padding: 10px;
+  margin: 5px;
+  font-size: 2.5ch;
+}
+
+.nama3 {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #e8ebea;
+  width: 100%;
+  height: 240px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col {
+  background-color: rgba(46, 42, 42, 0.911);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.footer1 {
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 50px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.footer1 h4 a{
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.footer1 h4 a:hover {
+  color: orange;
+}
+
+.footer-col1 {
+background-color: black;
+text-align: center;
+display: flex;
+justify-content: center;
+height: 50px;
+}
+
+.footer2 {
+  font-size: 10px;
+}
+
+.footercontainer {
+  width: 100px;
+}
+
+.socialicon {
+  display: flex;
+  justify-content: left;
+  padding-top: 10px;
+}
+
+.socialicon a {
+  text-decoration: none;
+  padding: 2px;
+  padding-right: 25px;
+  margin: 0px;
+  border-radius: 3px;
+}
+
+.socialicon a i {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  opacity: 0.9;
+  transition: all .5s ease-out;
+}
+
+.socialicon i:hover {
+  color: orange;
+  font-size: 3em;
+}
+
+.dede {
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  background-color: red;
+}
+
+.dada {
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.deda {
+  color: white;
+  transition: all 0.5s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  background-color: blue;
+  height: 45px;
+  font-size: 20px;
+}
+
+.deda:hover {
+  color: aqua;
+}
+
+.dudu {
+  width: 50px;
+  height: 30px;
+  background-color: aqua;
+  color: #000000;
+}

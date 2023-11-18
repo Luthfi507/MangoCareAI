@@ -1,0 +1,241 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboti", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.fContainer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+.backgambar {
+  background-color: #e8ebea;
+}
+
+.gambar {
+    display: inline-block;
+    box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 2);
+    background-color: #02fda9;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+
+.manggo {
+  font-size: 50px;
+  margin-top: 130px;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.mango {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  height: 5px;
+  background-color: #02fda9;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.firstname {
+  color: orange;
+  font-weight: 700;
+}
+
+.lastname {
+  color: black;
+  padding-left: 4px;
+  font-weight: 400;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 65px;
+}
+
+.navigation > li {
+  list-style-type: none;
+  padding: 10px;
+  height: 9px;
+  margin: 10px;
+}
+
+.navigation > li > a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  height: 190px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.navigation > li >a:hover {
+  color: white;
+  background-color: #000000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.active {
+  color: white;
+  padding: 15px;
+  transition: all .3s ease-out;
+  height: 100px;
+}
+
+.penyakit1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.isian {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.isian img {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 8px 3px rgb(0, 0, 0);
+}
+
+.kotak1 {
+    margin-left: 120px;
+}
+
+.nama-penyakit {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.keterangan-penyakit {
+    font-size: 15px;
+}
+
+.kotak-gejala {
+    margin-left: 120px;
+}
+
+.kotak-keterangan-gejala {
+    display: flex;
+}
+
+.gejala-penyakit {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.keterangan-gejala {
+    margin-left: 50px;
+}
+
+.isi-gejala {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-top: 2px;
+    display: flex;
+}
+
+.kotak-penyebaran {
+    margin-left: 120px;
+    display: flex;
+}
+
+.penyebaran {
+    font-size: 20px;
+}
+
+.isi-penyebaran {
+    margin-top: 2px;
+    margin-left: 6px;
+    font-size: medium;
+}
+
+.kotak-dampak {
+    margin-left: 120px;
+    display: flex;
+}
+
+.dampak {
+    font-size: 20px;
+}
+
+.isi-dampak {
+    margin-top: 2px;
+    margin-left: 6px;
+    font-size: medium;
+}
+
+.kotak-pengendalian {
+    margin-left: 120px;
+}
+
+.pengendalian {
+    margin-bottom: 50px;
+}
+
+.keterangan-pengendalian {
+    display: flex;
+}
+
+.isi-pengendalian {
+    margin-left: 50px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.pengendalian-keterangan {
+    margin-top: 2px;
+    margin-left: 5px;
+}
